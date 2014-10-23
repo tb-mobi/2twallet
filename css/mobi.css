@@ -1,0 +1,535 @@
+
+#info .successfully,#info .history-status-2,#content .successfully{color:#090}
+#info a.successfully:hover,#info a.successfully:focus,#info a.history-status-2:hover,#info a.history-status-2:focus{color:#0c0}
+#info .negative,#info .history-status-3{color:#c00}
+#info a.negative:hover,#info a.negative:focus{color:#f00}
+#info .in-progress,#info .history-status-0,#info .history-status-1,#info .history-status-4,#content .in-progress{color:#f93}
+form, fieldset{border:0;padding:0;margin:0}
+input[type=submit]{cursor:pointer;border-radius:.3em}
+.button .submit.disabled,.button .submit.disabled:hover,.button .submit.disabled:focus,.button button.submit.disabled,.button button.submit.secondary.disabled,.button button.submit.secondary.disabled:hover,#content .button-activation a.submit.disabled,#content .button-activation a.secondary.disabled,#content .button-activation a.secondary.disabled:hover{background:#ccc url(https://pay.myplatfon.ru/img/load.gif) no-repeat center right;cursor:default;color:#fff;border:none}
+
+
+#page{background:#fff url(https://pay.myplatfon.ru/img/bg-body-bottom.gif) repeat-x left bottom}
+
+#body{width:1060px;margin:0 auto;background:url(https://pay.myplatfon.ru/img/left-top-shadow.png) left top no-repeat}
+#body-right-top-shadow{background:url(https://pay.myplatfon.ru/img/right-top-shadow.png) right top no-repeat}
+#body-right-bottom-shadow{background:url(https://pay.myplatfon.ru/img/right-bottom-shadow.png) right bottom no-repeat}
+#body-left-bottom-shadow{padding:0 30px;background:url(https://pay.myplatfon.ru/img/left-bottom-shadow.png) left bottom no-repeat}
+
+
+/* Строка в шапке для НЕ зарегистрированного пользователя */
+.login{text-align:left;font-size:1em;font-style:italic;font-weight:normal;color:#666;padding:1.3em 1.4em 0 18em;margin:0}
+.key{width:103px;float:right}
+.key a{background:url(https://pay.myplatfon.ru/img/key.gif) right center no-repeat;text-decoration:none}
+.key a em{margin:0 54px 0 0}
+
+/* Строка в шапке для зарегистрированного пользователя */
+#registered-user{position:absolute;padding:0;margin:2em 0 0 32.7em;text-align:right;font-style:italic;z-index:2}
+#body-left-bottom-shadow .authorization-user{margin:2em 0 0 25.7em}
+#registered-user a img{vertical-align:middle}
+#registered-user a.exit{padding:0 0 0 3em}
+#registered-user em{padding:0 1em 0 0}
+#registered-user a.classic-small{background:url(https://pay.myplatfon.ru/img/classic-small.png) left center no-repeat;padding:.5em .5em .5em 2.5em;width:105px;display:inline-block}
+#registered-user a.gold-small{background:url(https://pay.myplatfon.ru/img/gold-small.png) left center no-repeat;padding:.5em .5em .5em 2.5em;width:105px;display:inline-block}
+#registered-user a.platinum-small{background:url(https://pay.myplatfon.ru/img/platinum-small.png) left center no-repeat;padding:.5em .5em .5em 2.5em;width:105px;display:inline-block}
+#registered-user .settings{background:#666;padding:.5em;border-radius:.3em;font-size:small;text-decoration:none;color:#fff}
+#registered-user .settings img{padding:0 .5em}
+
+.ingoing{background:url(https://pay.myplatfon.ru/img/padlock.png) left center no-repeat;width:452px;height:398px;margin:0 auto}
+.ingoing-form fieldset{width:265px;margin:0 auto;padding:170px 0 0}
+.ingoing-form label{display:block;padding:1em 0 0}
+.ingoing-form label a{float:right}
+.ingoing-form input{width:262px;padding:0;margin:0;font-size:1.4em}
+#content .ingoing .ingoing-form .button{padding:1em 0 0}
+.ingoing-form input.submit{width:auto;height:1.8em;padding:0 1em;margin:0;font-size:1.3em}
+.ingoing-form .button a{padding:.5em 0 0 0;float:right}
+
+/* Блок для ввода логина и пароля */
+#registered{background:#ececec url(https://pay.myplatfon.ru/img/bg-header.gif) left top repeat;width:330px;height:237px;position:absolute;margin:.5em 0 0 40.5em}
+
+#registered,#settings,#my-activities,.hintdescription,.support-view ul{box-shadow:0px 0px 10px #666}
+#registered,#settings,#my-activities,.hintdescription,.support-view ul{filter:progid:DXImageTransform.Microsoft.Shadow(color='#969696',Direction=150,Strength=3)}
+
+#registered fieldset{width:265px;margin:0 auto;padding:10px 0 0}
+#registered label{display:block;padding:1em 0 0}
+#registered label.number-phone{background:url(https://pay.myplatfon.ru/img/key.gif) right 1.3em no-repeat}
+#registered label a{float:right}
+#registered #login{width:220px}
+#registered .prefix{padding:0 .5em 0 0;margin:0;color:#333}
+#registered input{width:262px;padding:0;margin:0;font-size:1.4em}
+#registered .button{padding:1em 0 0}
+#registered input.submit{width:90px;height:40px;padding:0;margin:0;font-size:1.3em}
+#registered .button a{padding:.5em 0 0 0;float:right}
+
+/* Меню настроек пользователя */
+#settings{background:#666;position:absolute;border-radius:.3em;padding:0 .8em .8em .8em;margin:0 0 0 19em;text-align:left;z-index:3}
+#registered-user .authorization-user-settings{margin:0 0 0 19em}
+#settings h3{padding:0;margin:0;color:#fff;font-size:small}
+#settings h3 a{text-decoration:none;color:#fff}
+#settings h3 img{vertical-align:middle;padding:.5em}
+#settings ul{background:#fff;padding:.5em;margin:0;list-style-type:none}
+
+#sub-header-card{background:url(https://pay.myplatfon.ru/img/sub-header-card.gif) right top no-repeat;min-height:100px;margin:0 20px 0 0}
+#sub-header-card h1{background-position:left .7em;font-size:1.7em;padding:1.1em 0 0 3em;margin:0 0 0 .7em;min-height:65px}
+#sub-header-card h1 span{display:block;font-size:.4em}
+
+/* Блок Мои оперции. Для зарегистрированного пользователя. */
+#my-activities{background:#fff url(https://pay.myplatfon.ru/img/bg-header.gif) left top repeat;width:260px;position:absolute;padding:0;margin:1em 0 0 45em;z-index:1}
+#my-activities p{background:url(https://pay.myplatfon.ru/img/purse.gif) left .5em no-repeat;padding:1em 0 0 3em;margin:0 0 0 1em;min-height:50px}
+#my-activities p a.arrow-down{background:url(https://pay.myplatfon.ru/img/arrow-down-blue.gif) right .5em no-repeat}
+#my-activities p a.arrow-up{background:url(https://pay.myplatfon.ru/img/arrow-up-blue.gif) right .5em no-repeat}
+#my-activities p a{text-decoration:none}
+#my-activities p a em{margin:0 70px 0 0}
+/* Пункт из раскрывающийся список Мои оперции */
+#my-activities .choice-item{padding:0;margin:0;display:block;font-size:small}
+#my-activities img{padding:0 0 0 3em}
+
+/* Раскрывающийся список Мои оперции */
+#personal-info{background:#fff;padding:1em 1em 0;margin:1em}
+#personal-info ul{padding:0;margin:0;list-style-type:none}
+#personal-info .personal-menu{padding:0 0 1em}
+#personal-info .your-cards{border-top:1px dashed #ccc;padding:0 0 1em}
+#personal-info .successful-operations li,#my-activities .your-cards li{font-size:small;line-height:1.5em}
+#personal-info .successful-operations li strong{display:block}
+#personal-info .successful-operations li h3,#my-activities .your-cards li h3{padding:1em 0 .5em;margin:0;font-size:large;color:#333}
+#personal-info .successful-operations li a{display:block;padding:0 0 1.5em}
+
+#search{padding:2em 0 0 1.3em;margin:0}
+#search #search-text{width:495px;font-size:1.3em}
+#search .submit{background:#ededed url(https://pay.myplatfon.ru/img/bg-search.gif) left center repeat-x;font:1em "Trebuchet MS",Arial,Helvetica,sans-serif;border:0;height:2em;padding:0 1.3em;margin:0}
+#search .submit:hover,#search .submit:focus{color:#000;background:#ededed url(https://pay.myplatfon.ru/img/bg-search-hover.gif) left center repeat-x}
+#search .example-search{font-size:small;color:#666;margin:0}
+#search .example-search a{color:#666;text-decoration:none;border-bottom:1px dashed}
+
+#info #search{padding:0 0 2em}
+
+.search-result li h3{font-size:.8em}
+.search-result li h3 a{display:block;font-size:1.6em}
+#info #pagenator{padding:1em 0 0}
+#pagenator a{margin:0 .5em}
+#pagenator span{background:#ccc;padding:0 .5em}
+
+#partners-right{padding:0 0 0 27px;margin:0;float:right;width:145px;min-height:410px;display:block;border-left:1px dashed #ccc;color:#999;list-style-type:none;font-size:x-small;line-height:1.2em}
+#partners-right li{margin:0 0 2.5em 0}
+#partners-right a,#partners-footer li a{display:inline-block}
+
+#shadow-bottom,#sub-header,.button .submit,#personaldata .submit,.buttons a.submit,#content .button-activation a.submit,#content .button-activation a.secondary:hover,.button button.submit.secondary:hover,#footer{background:url(https://pay.myplatfon.ru/img/gradients.png) repeat-x}
+body #shadow-bottom{background-position:0 -718px}
+#sub-header{background-color:#e5e5e5;background-position:0 -102px}
+.button .submit,#personaldata .submit{background-position:left top}
+.button .submit:hover,.button .submit:focus,.buttons a.submit:hover,.buttons a.submit:focus,#content .button-activation a:hover,#content .button-activation a:focus,#personaldata .submit:hover,#content .button-activation a.secondary:hover,.button button.submit.secondary:hover{background-position:0 -51px}
+#footer{background-position:0 -202px}
+
+#partners-right .visa,#partners-right .ssl,#partners-right .pci-dss,#partners-right .mc,#partners-right .mcafee,#partners-right .ds,#partners-right .contact,#partners-right .cp,#partners-right .kp,#partners-footer li .visa,#partners-footer li .ssl,#partners-footer li .pci,#partners-footer li .mc,#partners-footer li .kp,#partners-footer li .cp,#partners-footer li .contact,#partners-footer li .mcafee,#partners-footer li .threeds,.hint,#history-operations tbody tr td a.unfavorites,#history-operations tbody tr td a.unfavorites:hover,#history-operations tbody tr td a.favorites,#history-operations tbody tr td a.favorites:hover,#info a.visa,#info a.mc,#info .threeds{background:url(https://pay.myplatfon.ru/img/logotype-partners/partners.png)}
+
+#info a.visa,#info a.mc,#info .threeds{display:block;width:95px;height:71px;cursor:inherit}
+#partners-footer li .visa{background-position:5px 0;width:95px;height:71px}
+#partners-footer li .visa:hover,#info a.visa{background-position:5px -71px}
+#partners-footer li .ssl{background-position:5px -142px;width:95px;height:71px}
+#partners-footer li .ssl:hover{background-position:5px -213px}
+#partners-footer li .pci{background-position:5px -284px;width:95px;height:71px}
+#partners-footer li .pci:hover{background-position:5px -355px}
+#partners-footer li .mc{background-position:10px -426px;width:95px;height:71px}
+#partners-footer li .mc:hover,#info a.mc{background-position:10px -497px}
+#partners-footer li .kp{background-position:0 -569px;width:95px;height:71px}
+#partners-footer li .kp:hover{background-position:0 -640px}
+#partners-footer li .cp{background-position:15px -710px;width:95px;height:71px}
+#partners-footer li .cp:hover{background-position:15px -781px}
+#partners-footer li .contact{background-position:15px -853px;width:95px;height:71px}
+#partners-footer li .contact:hover{background-position:15px -924px}
+#partners-footer li .threeds{background-position:25px -994px;width:95px;height:71px}
+#partners-footer li .threeds:hover,#info .threeds{background-position:25px -1065px}
+#partners-footer li .mcafee{background-position:0 -1136px;width:95px;height:71px}
+#partners-footer li .mcafee:hover{background-position:0 -1207px}
+
+#partners-right .visa{background-position:0 -1278px;width:40px;height:24px}
+#partners-right .visa:hover{background-position:0 -1302px}
+#partners-right .ssl{background-position:0 -1326px;width:79px;height:35px}
+#partners-right .ssl:hover{background-position:0 -1361px}
+#partners-right .pci-dss{background-position:0 -1396px;width:59px;height:37px}
+#partners-right .pci-dss:hover{background-position:0 -1434px}
+#partners-right .mc{background-position:0 -1471px;width:40px;height:24px}
+#partners-right .mc:hover{background-position:0 -1495px}
+#partners-right .mcafee{background-position:0 -1519px;width:140px;height:33px}
+#partners-right .mcafee:hover{background-position:0 -1552px}
+#partners-right .ds{background-position:5px -1585px;width:40px;height:24px}
+#partners-right .ds:hover{background-position:5px -1609px}
+#partners-right .kp{background-position:5px -1633px;width:45px;height:34px}
+#partners-right .kp:hover{background-position:5px -1667px}
+#partners-right .cp{background-position:0 -1701px;width:45px;height:29px}
+#partners-right .cp:hover{background-position:0 -1730px}
+#partners-right .contact{background-position:0 -1759px;width:45px;height:29px}
+#partners-right .contact:hover{background-position:0 -1788px}
+#top-categories{padding:0 0 30px;margin:0;list-style-type:none;font-size:small;font-style:italic}
+#top-categories li,#top-merchant li{display:inline-block}
+#top-categories li a{vertical-align:.6em;padding:0 20px 0 10px}
+#top-merchant li a img{padding:0 25px 0 0}
+.hint{background-position:0 -1817px;width:16px;height:16px}
+#history-operations tbody tr td a.unfavorites,#history-operations tbody tr td a.favorites:hover{background-position:25px -1833px;width:18px;height:18px}
+#history-operations tbody tr td a.unfavorites:hover{background-position:25px -1851px;width:18px;height:18px}
+#history-operations tbody tr td a.favorites{background-position:25px -1869px;width:18px;height:18px}
+
+#info .threeds-logos li{display:inline-block}
+
+#content{padding:0;margin:25px 20px}
+#content h2,#info h2{padding:0 0 1em;margin:0}
+#index-content{padding:0;margin:0 172px 0 0;background:url(https://pay.myplatfon.ru/img/bg-partners-right.jpg) 704px top no-repeat}
+
+#categories li{display:inline-table;width:240px;padding:0 1.2em 0 0;border-collapse:collapse;vertical-align:top;height:140px}
+#categories h3{padding:0 0 0 4.5em;margin:0;font-size:1.1em;font-weight:bolder;line-height:1.2em}
+#categories li li{display:block;width:160px;height:auto}
+#categories li ul{padding:0;margin:.8em 0 2em 6em;list-style-type:none;font-size:small;line-height:1.4em}
+#categories li ul li{padding:0}
+
+#merchants ul{display:inline-table;width:240px;vertical-align:top}
+#merchants li{padding:0 1em 0 0;font-size:.8em}
+#merchants li h3{padding:1.5em 0 .5em;margin:0;font-size:1.9em}
+.merchants-en{border-top:1px solid #ccc;margin:3em 0 0}
+
+.category-900{background:url(https://pay.myplatfon.ru/img/icons-categories/mobile.png) left top no-repeat}
+.category-910{background:url(https://pay.myplatfon.ru/img/icons-categories/internet.png) left top no-repeat}
+.category-961{background:url(https://pay.myplatfon.ru/img/icons-categories/e-money.png) left top no-repeat}
+.category-930{background:url(https://pay.myplatfon.ru/img/icons-categories/repayment-credit.png) left top no-repeat}
+.category-935{background:url(https://pay.myplatfon.ru/img/icons-categories/jku.png) left top no-repeat}
+.category-950{background:url(https://pay.myplatfon.ru/img/icons-categories/other.png) left top no-repeat}
+.category-920{background:url(https://pay.myplatfon.ru/img/icons-categories/tv.png) left top no-repeat}
+.category-925{background:url(https://pay.myplatfon.ru/img/icons-categories/telephone-communications.png) left top no-repeat}
+.category-940{background:url(https://pay.myplatfon.ru/img/icons-categories/air-passage.png) left top no-repeat}
+.category-947{background:url(https://pay.myplatfon.ru/img/icons-categories/travel-sim-card.png) left top no-repeat}
+.category-942{background:url(https://pay.myplatfon.ru/img/icons-categories/security-systems.png) left top no-repeat}
+.category-932{background:url(https://pay.myplatfon.ru/img/icons-categories/hosting-domains.png) left top no-repeat}
+.category-965{background:url(https://pay.myplatfon.ru/img/icons-categories/internet-shop.png) left top no-repeat}
+.category-945{background:url(https://pay.myplatfon.ru/img/icons-categories/travel.png) left top no-repeat}
+.category-941{background:url(https://pay.myplatfon.ru/img/icons-categories/train-tickets.png) left top no-repeat}
+.category-964{background:url(https://pay.myplatfon.ru/img/icons-categories/games.png) left top no-repeat}
+.category-937{background:url(https://pay.myplatfon.ru/img/icons-categories/education-training.png) left top no-repeat}
+.category-905{background:url(https://pay.myplatfon.ru/img/icons-categories/satellite-internet.png) left top no-repeat}
+.category-915{background:url(https://pay.myplatfon.ru/img/icons-categories/voip.png) left top no-repeat}
+.transfer{background:url(https://pay.myplatfon.ru/img/icons-categories/transfer.png) left top no-repeat}
+.movie-tickets{background:url(https://pay.myplatfon.ru/img/icons-categories/movie-tickets.png) left top no-repeat}
+.my-money{background:url(https://pay.myplatfon.ru/img/icons-categories/my-money.png) left top no-repeat}
+.selected-payments{background:url(https://pay.myplatfon.ru/img/icons-categories/selected-payments.png) left top no-repeat}
+.padlock{background:url(https://pay.myplatfon.ru/img/icons-categories/padlock.png) left top no-repeat}
+.registration{background:url(https://pay.myplatfon.ru/img/icons-categories/registration.png) left top no-repeat}
+.history-operations{background:url(https://pay.myplatfon.ru/img/icons-categories/history-operations.png) left top no-repeat}
+.privilege{background:url(https://pay.myplatfon.ru/img/icons-categories/privilege.png) left top no-repeat}
+.search{background:url(https://pay.myplatfon.ru/img/icons-categories/search.png) left top no-repeat}
+
+#additional-information{float:right;width:397px;padding:1em 0 0 0;margin:0}
+#additional-information .payment-info li h2{padding:0;margin:0}
+#additional-information .commission{background:url(https://pay.myplatfon.ru/img/bg-oferta.png) left center no-repeat;padding:.5em 0;margin:0;font-size:1.9em;color:#999;text-align:center}
+#additional-information .commission span{font-size:1.2em;color:#f90}
+#additional-information .reminder{background:url(https://pay.myplatfon.ru/img/bg-reminder.png) left center no-repeat;padding:5em 0;margin:0;font-size:.8em;color:#999;line-height:1.4em;font-style:italic;text-align:center}
+#additional-information .reminder a{text-decoration:none;border-bottom:1px dashed #039;cursor:help}
+#additional-information .reminder.link a{text-decoration:underline;border:none;cursor:pointer}
+
+#content .billing-info{padding:0 0 0 3em;margin:0 0 2em 3em;border-left:1px solid #ccc}
+
+ul.payment-info{padding:0;margin:0;list-style-type:none}
+ul.payment-info img{padding:1.5em .5em 1.5em 0;vertical-align:middle}
+ul.payment-info li span{color:#999}
+ul.payment-info .payment-details{background:#f2f2f2;padding:1em;margin:0;border-radius:.8em;font-size:1.2em}
+
+#content .notice{width:450px;background:#f2f2f2;padding:.4em 0 .4em .5em;font-size:small;line-height:1.3em}
+#content .notice b{color:#f90}
+
+#content #identification,#content #confirmation{background:none}
+#content #identification .number-phone{width:390px;background:#f2f2f2;border-radius:.8em;padding:1em}
+#content #identification label{width:13em;display:block}
+#content .your-number{padding:1em 0 0}
+.your-number .action-link{font-size:small}
+
+/* Всплывающие подсказки */
+.hint{display:inline-block;padding:0 .5em 0 0;cursor:help}
+.hint .hintdescription{background:url(https://pay.myplatfon.ru/img/bg-header.gif) left top repeat;width:21em;position:absolute;padding:.7em;margin:0 0 0 2.5em;color:#333;list-style-type:none}
+.hint .hintdescription b{display:block;padding:.5em 0;font-size:.9em;line-height:1.2em;font-weight:normal;font-style:normal}
+
+#info ul.button-add-card{padding:.7em;margin:1em 0 0 17em}
+
+#content #confirmation{padding:1em 0 0 0}
+#content #confirmation fieldset label{padding:0;display:block}
+
+#menu{float:left;width:170px;padding:0;margin:0 2em 2em 0}
+#menu ul{padding:0;margin:0;list-style-type:none;font-size:.9em}
+#menu ul li{padding:0 0 .7em}
+
+.info{margin:0 450px 0 0}
+#info{margin:0 0 0 224px}
+#info ul{padding:0;margin:0;list-style-type:none}
+
+.logomerchant{vertical-align:middle;padding:0 1em 0 0}
+
+#personaldata{padding:1em 5em 0 0;margin:1em 0 0;border-top:1px dotted #ccc}
+#personaldata fieldset{padding:1.5em 0 1em 0}
+#personaldata fieldset .line{background:#ccc;height:1px;margin:0 20em 0 0}
+#personaldata fieldset .personaldata-word{overflow:visible;float:left;margin:-.9em 0 0}
+#personaldata fieldset .personaldata-field{overflow:visible;float:right;margin:-1.1em 0 0}
+#personaldata label span b{font-weight:normal;background:#fff;padding:0 .5em 0 0}
+#personaldata .prefix{background:#fff;padding:0 .5em 0 .5em}
+#personaldata img{padding:0 0 0 2em}
+
+h2 .classic{background:url(https://pay.myplatfon.ru/img/classic.png) left center no-repeat;padding:.5em 0 .5em 1.8em}
+.classic{background:url(https://pay.myplatfon.ru/img/classic.png) left center no-repeat;padding:.5em 0 .5em 2.5em}
+p a.classic{background:url(https://pay.myplatfon.ru/img/classic.png) left center no-repeat;padding:.5em 2em .5em 2.5em}
+.gold{background:url(https://pay.myplatfon.ru/img/gold.png) left center no-repeat;padding:.5em 0 .5em 2.5em}
+p a.gold{background:url(https://pay.myplatfon.ru/img/gold.png) left center no-repeat;padding:.5em 2em .5em 2.5em}
+.platinum{background:url(https://pay.myplatfon.ru/img/platinum.png) left center no-repeat;padding:.5em 0 .5em 2.5em}
+
+#content .limits{border:1px solid #ccc;font-size:.8em;border-collapse:collapse}
+#content .limits caption{padding:2em 0 .5em;font-size:1.1em}
+#content .limits caption span.hint{font-size:1em}
+#content .limits tr td{border:1px solid #ccc;padding:.5em}
+#content .limits tr th{border:1px solid #ccc}
+#content .limits thead{background:#ececec url(https://pay.myplatfon.ru/img/bg-header.gif) left top repeat-x;font-style:italic}
+
+.hiden-list{padding:1em 0 0}
+.hiden-list .buttons{list-style-type:none;padding:2em 0}
+.note{background:url(https://pay.myplatfon.ru/img/bg-reminder.png) right center no-repeat;display:inline-block;width:250px;padding:0 0 0 .5em;margin:0 1em 0 .5em;vertical-align:middle;font-size:.8em;color:#999;line-height:1.4em;font-style:italic}
+
+#date{padding:0 0 1em;margin:0}
+#date input{width:115px;font-size:1.4em}
+#date a.calendar img{padding:0 2em 0 1em;vertical-align:text-bottom}
+#date b{font-size:1.4em;font-weight:normal;padding:0 .5em 0 0}
+#date .button{display:inline-block}
+#date .button .submit{width:auto;height:1.8em}
+
+#info-popup{margin:1em}
+#date-reminder,#date-reminder .button{margin:2em 0 0}
+#date-reminder fieldset{display:inline-block}
+#date-reminder fieldset label{display:block;margin:0 0 .5em;font-size:1.2em;font-style:italic}
+#date-reminder select{width:150px;font-size:1em}
+
+#date-reminder #weekly{margin:0 0 0 2em;display:none}
+#date-reminder #monthly{margin:0 0 0 2em;display:none}
+#date-reminder #annually{margin:0 0 0 2em}
+#date-reminder #yearly{margin:0 0 0 1em}
+
+#history-operations{border-collapse:collapse;font-size:small}
+#history-operations thead{background:#E5E5E5;text-align:left;vertical-align:top}
+#history-operations tbody tr{border-bottom:1px dashed #ccc;height:4em;vertical-align:middle;cursor:pointer}
+#history-operations tbody tr:hover,.limits tbody tr:hover{background:#f2f1e4}
+#history-operations tbody tr td,#history-operations thead tr th{padding:.6em;line-height:1.4em}
+
+#history-operations tbody tr td a.unfavorites,#history-operations tbody tr td a.favorites{display:block;padding:0 2em}
+#history-operations tbody tr td a.unfavorites:hover,#history-operations tbody tr td a.favorites:hover{padding:0 2em}
+
+.pages{padding:1.5em 0 0}
+.pages ul li{display:inline;padding:0 .3em}
+.pages ul li strong{background:#e5e5e5;padding:.1em .3em}
+
+.payform{background:url(https://pay.myplatfon.ru/img/bg-pay-card.png) 484px center no-repeat;padding:0;margin:0}
+.payform.long{background:url(https://pay.myplatfon.ru/img/bg-pay-card-long.png) 484px bottom no-repeat}
+.payform.minheightcard{min-height:38em}
+.payform.nobg{background:none}
+#multiplecard{width:40em}
+#multiplecard .button{margin:20em 0 0}
+#info .add-card-form{background:url(https://pay.myplatfon.ru/img/bg-pay-card.png) 484px top no-repeat;padding:0;margin:0}
+.payform input,.payform textarea,#personaldata input,#identification input,#confirmation input{font-size:1.4em;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif}
+.payform select{width:408px;font-size:1.4em}
+.payform .details-pay #pay-period,.payform .details-pay #pay-year{width:auto;font-size:1.4em}
+
+.payform .details-pay{width:29.5em;box-shadow:0px 0px 5px #ccc}
+.payform .details-pay{padding:1em 0 1em 1em;margin:0 0 2em;background:#f1f1f1}
+.payform .details-pay fieldset{padding:0 0 1em}
+.payform .details-pay input,.payform .details-pay textarea,.comment input{width:400px}
+
+.payform .list{list-style-type:none;padding:0;line-height:1.4em}
+.payform .list input{width:auto}
+.payform .list li.choice{float:left;padding:0}
+.payform .list li{padding:0 2em}
+
+.prefix{font-size:1.6em;padding:0 .5em 0 0;margin:0}
+#content .payform .number-phone label{padding:0 0 0 2.8em;display:block}
+#content .payform .dnumber label{display:block}
+#content .payform .additional-field label{display:block}
+.payform .details-pay label,.payform .details-pay fieldset{display:block}
+#content .payform .number-phone #number,#content #identification .number-phone #your-number,.info #identification .number-phone #your-number{width:174px}
+#content .payform .details-pay .telephone {width: 360px}
+#content .payform .amount #amount{width:100px}
+.payform .number-phone img,#content #identification .number-phone img,#card-logo-to{margin:-.5em .5em 0 .8em;padding:0;vertical-align:top}
+
+#content .payform .number-phone.moneysend{background:#f1f1f1}
+#content .payform .number-phone.moneysend label{padding:0}
+#content .payform #card-logo-to{padding:0;margin:0;display:inline-block}
+.background-block{width:29.5em;box-shadow:0px 0px 5px #ccc;padding:1em 0 1em 1em;margin:0 0 2em;background:#f1f1f1}
+
+#content .payform .amount-currency #amount{width:100px;float:left;text-align:right;margin:0 1em 0 0}
+#content .payform .amount-currency #currency{font-size:1.4em}
+#content .payform .amount-currency .example{clear:both}
+
+.payform fieldset{padding:0;margin:0;display:inline-table;vertical-align:top;border:0}
+.payform .amount{width:170px;padding:0 0 1.5em}
+.amount label,.comment label{padding:0;display:block}
+.amount input{margin:0 .5em 0 0;text-align:right}
+.amount img{padding:0;margin:0;vertical-align:bottom}
+.amount abbr{cursor:help;border:none}
+
+#confirmation #amount-blocked{width:8em}
+
+/* Добавление номера для оплаты */
+#content .payform .add-number{padding:0;margin:0 0 1em 0;font-size:small}
+.add-number a{background:url(https://pay.myplatfon.ru/img/add-number.gif) left center no-repeat;padding:0 0 0 1.5em;text-decoration:none;color:#090}
+.add-number a:hover,.add-number a:focus{background:url(https://pay.myplatfon.ru/img/add-number-hover.gif) left center no-repeat;color:#c00}
+.add-number a em{font-style:normal;border-bottom:1px dashed #090}
+.add-number a em:hover{color:#c00;border-bottom:1px dashed #c00}
+
+.card-container{margin:0 0 -20em;position:relative}
+
+.payform fieldset.card-bord{background:#fff;width:445px;border:1px solid #ccc;border-radius:.8em .8em 0 0;border-width:1px 1px 0;padding:10px 24px 10px 15px;cursor:pointer}
+.payform .active fieldset.card-bord{display:none}
+.payform .card-container.active .pay-card{visibility:visible}
+.payform .card-container .pay-card{visibility:hidden}
+.payform fieldset.card-bord b{font-style:italic;font-weight:normal}
+
+.payform .cardnumber,.payform .cardholder,.payform .cvv{width:462px}
+.secret-code{background:url(https://pay.myplatfon.ru/img/card-bg-bottom.png) left bottom no-repeat;padding:.7em .7em;margin:0}
+.payform .pay-card{background:#e2e2e2 url(https://pay.myplatfon.ru/img/card-bg.gif) top left repeat-x;padding:0;margin:0;border:1px solid #ccc;border-radius:.8em;width:484px;line-height:1.1em}
+
+.payform .new-card{width:485px;border:1px solid #ccc;border-radius:.8em}
+.payform .new-card .used-card{padding:0;margin:0}
+
+.payform .cardnumber{background:url(https://pay.myplatfon.ru/img/hologram.png) right .9em no-repeat}
+.payform .cardnumber img{padding:0 0 0 .6em;vertical-align:bottom}
+.cardnumber label,.valid-thru,.cardholder label,.cvv label{font-style:italic}
+.payform .cardnumber .save-cardnumber{padding:0;margin:0 0 0 4em;font-size:small;font-style:normal}
+.payform .cardnumber .save-cardnumber input{padding:0;margin:0}
+#cardnumber{min-width:18em;margin:.3em 0 0 0}
+
+.payform .cardnumber .used-cardnumber{font-size:3.3em;line-height:.9em;height:.6em}
+
+.payform .pay-card select{width:auto;font-size:.9em}
+.payform .valid-thru{width:280px;margin:0 0 0 12em}
+.valid-thru label{float:left;margin:0 1em 0 0}
+.vt-example{font-size:.7em;color:#666;padding:0;margin:0;display:block}
+.vt-example .year{padding:0 0 0 4.3em;margin:0;font-weight:normal}
+.vt-example .used-year{padding:0 0 0 3em;margin:0;font-weight:normal}
+.validity-month{padding:0 1em 0 0;margin:0;font-weight:normal}
+.validity-year{padding:0 0 0 1em;margin:0;font-weight:normal}
+
+.cardholder,.payform .cardholder .example,.payform .cardnumber .example{line-height:1.7em}
+.cardholder p{padding:0 0 1.5em 0}
+.cardholder input{display:block;min-width:17em}
+
+.vi, .card-type-4{padding:0;margin:1.8em 0 0 25.5em;background:url(https://pay.myplatfon.ru/img/logo-card/vi.gif) no-repeat;width:55px;height:30px;position:absolute}
+.mc-ec, .card-type-5{padding:0;margin:1.8em 0 0 25.5em;background:url(https://pay.myplatfon.ru/img/logo-card/mc-ec.gif) no-repeat;width:55px;height:30px;position:absolute}
+.ax, .card-type-1{padding:0;margin:1.8em 0 0 25.5em;background:url(https://pay.myplatfon.ru/img/logo-card/ax.gif) no-repeat;width:55px;height:30px;position:absolute}
+.dc-bl, .card-type-1{padding:0;margin:1.8em 0 0 25.5em;background:url(https://pay.myplatfon.ru/img/logo-card/dc-bl.gif) no-repeat;width:55px;height:30px;position:absolute}
+.di, .card-type-1{padding:0;margin:1.8em 0 0 25.5em;background:url(https://pay.myplatfon.ru/img/logo-card/di.gif) no-repeat;width:55px;height:30px;position:absolute}
+.jcb, .card-type-1{padding:0;margin:1.8em 0 0 25.5em;background:url(https://pay.myplatfon.ru/img/logo-card/jcb.gif) no-repeat;width:55px;height:30px;position:absolute}
+.er, .card-type-1{padding:0;margin:1.8em 0 0 25.5em;background:url(https://pay.myplatfon.ru/img/logo-card/er.gif) no-repeat;width:55px;height:30px;position:absolute}
+.default, .card-type-1{padding:0;margin:1.8em 0 0 25.5em;background:url(https://pay.myplatfon.ru/img/logo-card/default.gif) no-repeat;width:55px;height:30px;position:absolute}
+.false, .card-type-1{padding:0;margin:1.8em 0 0 25.5em;background:url(https://pay.myplatfon.ru/img/logo-card/false.gif) no-repeat;width:55px;height:30px;position:absolute}
+
+#card-logo-to.vi,#card-logo-to.mc-ec,#card-logo-to.ax,#card-logo-to.dc-bl,#card-logo-to.di,#card-logo-to.jcb,#card-logo-to.er,#card-logo-to.default,#card-logo-to.false{position:static}
+
+.payform .cvv{background:url(https://pay.myplatfon.ru/img/cvv-bg.png) left top repeat-x;padding:0;margin:0}
+.payform .cvv input{padding:0;margin:.3em 0 0 .3em;width:2.5em}
+#content .payform .cvv .example{padding:.7em 0 0 0;margin:0}
+
+.button{padding:0;margin:0}
+.button .submit,#personaldata .submit{color:#fff;font-size:1.2em;border:none;border-radius:.3em;padding:.4em 1em;margin:1em 0;cursor:pointer}
+.button a.submit{padding:.5em .5em;text-decoration:none}
+.button img.hint{padding:0 0 0 1em}
+
+.button button.submit{width:13em;min-height:3.5em;margin:2em 1em 2em 0;font-size:.9em;line-height:normal;vertical-align:top}
+
+.buttons a.submit{background-color:#3c3;color:#fff;font-size:1em;text-decoration:none;border-radius:.3em;padding:.8em 1em}
+#info .buttons{padding:2em 0 3em;margin:0}
+#info .buttons a{display:inline-block;vertical-align:middle;margin:0 .5em 0 0}
+#info .buttons a span{display:block;font-size:.8em;font-style:italic;line-height:1.2em}
+#info .buttons a.bts{padding:.3em .5em}
+
+#content .button-activation{padding:2em 0 7em;margin:0;line-height:1.2em}
+#content .button-activation a{padding:.4em .3em;margin:0 1em 0 0;display:block;width:200px;float:left;color:#fff;font-size:1em;text-decoration:none;border-radius:.3em}
+#content .button-activation a.secondary,.button button.submit.secondary{background:none;border:1px solid #999;color:#333;font-size:.9em}
+#content .button-activation a.secondary:hover,.button button.submit.secondary:hover{color:#fff;border:1px solid #fff}
+
+#check{width:688px;margin:0 auto;background:#ececec url(https://pay.myplatfon.ru/img/bg-header.gif) left top repeat}
+#check-left-top-shadow{background:url(https://pay.myplatfon.ru/img/check-shadow-left.png) left top no-repeat}
+#check-right-top-shadow{background:url(https://pay.myplatfon.ru/img/check-shadow-right.png) right top no-repeat}
+#check ul{width:600px;padding:0;margin:0 auto}
+#check ul.details-mobiplas{padding:3em 0 0 0;text-align:center;font-size:.9em}
+#check ul.operation{padding:0 0 2em 0;line-height:2.3em;font-size:.9em}
+#check ul.operation .center-text{text-align:center;font-weight:bold}
+#check ul.operation li span{background:url(https://pay.myplatfon.ru/img/dot.gif) left 1.4em repeat-x;display:inline-block;width:300px}
+#check ul.operation li span strong{background:#ececec}
+#check ul.operation li b{display:inline-block;width:22em;padding:.6em 0 0;font-weight:normal;vertical-align:top;line-height:1.5em;font-size:.9em}
+.stamp{background:url(https://pay.myplatfon.ru/img/stamp.png) right top no-repeat;width:600px;height:139px;position:absolute}
+#check .details-aggregators{font-size:small;line-height:1.4em;padding:2em 0 3em 0;border-top:1px solid #ccc}
+#content .chek-dotted-top{background:url(https://pay.myplatfon.ru/img/chek-dotted-top.gif) left top repeat-x;height:5px;width:688px;margin:0 auto}
+#content .chek-dotted-bottom{background:url(https://pay.myplatfon.ru/img/chek-dotted-bottom.gif) left bottom repeat-x;height:5px;width:688px;margin:0 auto}
+
+#info .itemization{padding:0 0 2em}
+.itemization h3{margin:2em 0 0}
+.my-money-list h3{font-size:1.5em}
+.itemization a{padding:0 2em 0 0}
+.my-money-list .subtext{font-size:small;color:#999}
+#info .prompt{border:1px dashed #ccc;padding:.5em 0 .5em .5em;font-style:italic}
+
+.inputNewTemplatetitle img{vertical-align:text-top;padding:0 0 0 .5em}
+.inputNewTemplatetitle input{font:1em "Trebuchet MS",Arial,Helvetica,sans-serif;font-style:italic;margin:0 0 .8em}
+.templateTitle{background:url(https://pay.myplatfon.ru/img/edit.png) no-repeat right center;padding:.5em 2em .5em 0;line-height:2.3em;cursor:pointer;display:none}
+.templateTitle b{padding:0;font-weight:normal}
+
+.promotion{padding:0;margin:0;clear:both}
+.promotion li{background:#ececec url(https://pay.myplatfon.ru/img/bg-header.gif) left top repeat-x;display:inline-block;vertical-align:middle;width:18em;height:7em;font-size:.7em;line-height:1.4em;padding:1em;margin:4em 0 0;border-right:10px solid #fff}
+.promotion li p{display:block}
+.promotion li p img{float:left;padding:0 1em 0 .5em}
+
+.disclaimer{background:url(https://pay.myplatfon.ru/img/bg-oferta.png) left center no-repeat;font-size:.7em;color:#999;padding:3em;margin:0;text-align:center}
+.disclaimer a,.disclaimer a:hover,.disclaimer a:focus,.disclaimer a:visited{color:#999}
+
+input.error{background:#fcc;border:1px solid #c00;color:#000}
+.error-form,.error-phone,.error-cardnumber,.error-valid-thru,.error-cardholder,.error-cvv,.error-number,.error-your-number,.error-password,.error-amount-blocked,.error-phone-recovery,.error-phone-registration{list-style-type:circle;background:#c00;color:#fff;width:21em;line-height:1.2em;position:absolute;font-size:.8em}
+#personaldata ul{clear:both;padding:.3em 0 .3em 2em;margin:2em 0 0;list-style-type:circle;font-size:.8em;line-height:1.2em;background:#c00;color:#fff}
+.error-form{padding:.3em 0 .3em 2em;margin:0 0 0 37em}
+.error-phone{padding:.3em 0 .3em 2em;margin:1.7em 0 0 38em}
+.error-cardnumber{padding:.3em 0 .3em 2em;margin:2em 0 0 37em}
+.error-valid-thru{padding:.3em 0 .3em 2em;margin:0 0 0 22em}
+.error-cardholder{padding:.3em 0 .3em 2em;margin:3em 0 0 37.05em}
+.error-cvv{padding:.3em 0 .3em 2em;margin:0 0 0 37em}
+.error-your-number{padding:.3em 0 .3em 1.5em;margin:.5em 0 0 33em}
+.error-password{padding:.3em 0 .3em 1.5em;margin:1.9em 0 0 18em}
+.ingoing-form .error-phone{padding:.3em 0 .3em 2em;margin:0 0 0 20.8em}
+.ingoing-form .error-password{padding:.3em 0 .3em 1.5em;margin:0 0 0 20.8em}
+.error-amount-blocked{padding:.3em 0 .3em 1.5em;margin:2.3em 0 0 15.5em}
+.error-phone-recovery{padding:.3em 0 .3em 1.5em;margin:0 0 0 31.7em}
+.error-phone-registration{padding:.3em 0 .3em 1.5em;margin:1.4em 0 0 33em}
+
+.marketing-text{clear:both;background:#ededed;border-radius:.8em;padding:1em;margin:1.7em 1.4em 0;line-height:1.2em;font-size:small}
+.marketing-text-right{background:url(https://pay.myplatfon.ru/img/marketing-right.gif) 1.5em center no-repeat;float:right;width:16em;min-height:9em;padding:4em 0 0 8em;margin:0;border-left:1px solid #fff;font-size:x-small}
+.marketing-text-left-top{background:url(https://pay.myplatfon.ru/img/marketing-rub.gif) left center no-repeat;padding:1em 0 1em 4.5em;margin:0}
+.marketing-text-left-bottom{background:url(https://pay.myplatfon.ru/img/marketing-percent.gif) left center no-repeat;padding:1em 0 1em 4.5em;margin:0}
+
+.marketing-text-history{background:url(https://pay.myplatfon.ru/img/marketing/history.png) left center no-repeat;padding:1em 0 1em 4.5em;margin:0}
+.marketing-text-privilege{background:url(https://pay.myplatfon.ru/img/marketing/privilege.png) left center no-repeat;padding:1em 0 1em 4.5em;margin:0}
+.marketing-text-mobile{background:url(https://pay.myplatfon.ru/img/marketing/mobile.png) left center no-repeat;padding:1em 0 1em 4.5em;margin:0}
+.marketing-text-paybank{background:url(https://pay.myplatfon.ru/img/marketing/paybank.png) left center no-repeat;padding:1em 0 1em 4.5em;margin:0}
+
+#footer{clear:both;background-color:#ececec;padding:2em 1.3em 1em;margin:3em 0 0}
+#footer ul,#categories{list-style-type:none;padding:0;margin:0}
+#support,#menu-footer,#partners-footer{display:inline-table;vertical-align:top;border-collapse:collapse;width:49%}
+#footer.three-columns #support,#footer.three-columns #menu-footer,#footer.three-columns #partners-footer{width:32.5%}
+
+#partners-footer li{display:inline}
+#menu-footer li{float:left;width:130px;margin:0 3em 0 0}
+#footer.three-columns #menu-footer li{float:left;width:150px;margin:0}
+
+#support h3{margin:0;padding:.5em 0 .8em 0}
+#support h3 a{background:url(https://pay.myplatfon.ru/img/arrow.gif) right center no-repeat;font-weight:normal;text-decoration:none}
+#support h3 a em{font-style:normal;margin:0 32px 0 0}
+
+#support.support-view ul{background:#ececec url(https://pay.myplatfon.ru/img/bg-header.gif) left top repeat-x;position:relative;width:18em;margin:0 0 0 -1.4em}
+#support.support-view ul .display-none{display:block}
+#support.support-view ul li{margin:0 0 0 1.4em}
+#support.support-view ul li h3 a{background:url(https://pay.myplatfon.ru/img/arrow-up-grey.gif) right center no-repeat;font-weight:normal;text-decoration:none}
+
+.support-number-phone{background:url(https://pay.myplatfon.ru/img/support-number-phone.png) left center no-repeat;padding:.5em 0 .5em 2.8em;margin:0}
+.support-online{background:url(https://hd.myplatfon.ru/b.php?i=webim&lang=ru) left center no-repeat;padding:.5em 0 .5em 2.8em;margin:0}
+.support-mail{background:url(https://pay.myplatfon.ru/img/support-mail.png) left center no-repeat;padding:.5em 0 .5em 2.8em;margin:0}
+.support-icq{background:url(https://pay.myplatfon.ru/img/support-icq.png) left center no-repeat;padding:.5em 0 .5em 2.8em;margin:0}
+.support-skype{background:url(https://pay.myplatfon.ru/img/support-skype.png) left center no-repeat;padding:.5em 0 .5em 2.8em;margin:0}
+
+#copyright{margin:1.5em 0 0}
+.support-view #copyright{margin:-3.7em 0 0}
+.theme-version a.full{background:url(https://pay.myplatfon.ru/img/mobile-version.png) no-repeat left center;padding:.3em 0 .3em 2.5em}
