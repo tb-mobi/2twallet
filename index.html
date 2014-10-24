@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0039)http://getbootstrap.com/examples/cover/ -->
+<!-- saved from url=(0039) -->
 <html lang="en" data-ember-extension="1">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -7,81 +7,80 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="">
-		<meta name="author" content="">
+		<meta name="author" content="v.bushuev">
 		<link rel="icon" href="img/favicon.ico">
-		<title>2TWallet</title>
-		<!-- Bootstrap core CSS -->
-		<link href="../lib/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+		<title>Money&bull;Case</title>
+		<!-- Jquery -->
+		<link href="../lib/jquery/mobile/1.4.4/jquery.mobile.css" rel="stylesheet">
+		<!-- Font awesome styles -->
+		<link href="../lib/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<!-- Custom styles for this template -->
-		<link href="css/cover.css" rel="stylesheet">
-		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-		<script src="js/ie-emulation-modes-warning.js"></script>
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-		<style id="holderjs-style" type="text/css"></style>
+		<link href="css/mc.css" rel="stylesheet">
 	</head>
-	<body>
-		<div class="site-wrapper">
-			<div class="site-wrapper-inner">
+	<body class="site-wrapper">
+		<div data-role="page" id="index" class="site-wrapper-inner">
+			<div data-role="header" class="cover-container">
+				<div class="mc-head clearfix">
+					<h3 class="mc-head-brand"><i class="mc mc-color-green">Money</i>&nbsp;<i class="fa fa-suitcase"></i>&nbsp;<i class="mc mc-color-pink">Case</i></h3>
+					<ul class="nav mc-head-nav">
+						<li class="mc-item active">
+							<a href="#">Главная</a>
+						</li>
+						<li class="mc-item">
+							<a href="#features">Преимущества</a>
+						</li>
+						<li class="mc-item">
+							<a href="#">Контакты</a>
+						</li>
+						<li class="mc-box">
+							<a href="#">Вход</a>
+						</li>
+					</ul>												
+				</div>
+			</div>
+			<div role="main" class="ui-content cover-container">
 				<div class="cover-container">
-					<div class="masthead clearfix">
-						<div class="inner">
-							<h3 class="masthead-brand">Cover</h3>
-							<ul class="nav masthead-nav">
-								<li class="active">
-									<a href="http://getbootstrap.com/examples/cover/#">Home</a>
-								</li>
-								<li>
-									<a href="http://getbootstrap.com/examples/cover/#">Features</a>
-								</li>
-								<li>
-									<a href="http://getbootstrap.com/examples/cover/#">Contact</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="inner cover">
-						<h1 class="cover-heading">Cover your page.</h1>
-						<p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+					<div class="inner cover" role="main">
+						<h1 class="cover-heading">Ваш кошелёк. Money&nbsp;<i class="fa fa-suitcase"></i>&nbsp;Case</h1>
+						<p class="lead">Ваш кошелёк - это Безопасный финансовый инструмент на просторах интернета. Встроенно более 1000 наименований услуг, и список расширяется. Привязка любой банковской карты, а так же Ваша личная виртуальная карта привязанная к Вашему кошельку для безопасной оплаты интернет магазинах. И кое-что еще ...</p>
 						<p class="lead">
-							<a href="http://getbootstrap.com/examples/cover/#" class="btn btn-lg btn-default">Learn more</a>
+							<a href="#" class="btn btn-lg btn-default">Получить кошелек.</a>
 						</p>
 					</div>
-					<div class="mastfoot">
-						<div class="inner">
-							<p>Cover template for <a href="http://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-						</div>
+				</div>
+			</div>
+			<div data-role="footer" class="cover-container">
+				<div class="mc-foot">
+					<div class="inner">
+						<p>Ваш личный счет <a href="http://pay.myplatfon.ru/">Платфон</a>, <a href="http://2tbank.ru">2Тбанк</a>.</p>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div data-role="page" id="features">
+			<div  data-role="header"></div>
+			<div class="inner cover">
+						<h1 class="cover-heading">Преимущества. Money&nbsp;<i class="fa fa-suitcase"></i>&nbsp;Case</h1>
+						<p class="lead">Ваш кошелёк - это Безопасный финансовый инструмент на просторах интернета. Встроенно более 1000 наименований услуг, и список расширяется. Привязка любой банковской карты, а так же Ваша личная виртуальная карта привязанная к Вашему кошельку для безопасной оплаты интернет магазинах. И кое-что еще ...</p>
+						<p class="lead">
+							<a href="#" class="btn btn-lg btn-default">Получить кошелек.</a>
+						</p>
+			</div>
+			<div data-role="footer"></div>
+		</div>
+		<script src="../lib/jquery/1.11.1/jquery.min.js"></script>
+		<script src="../lib/jquery/mobile/1.4.4/jquery.mobile.js"></script>
 		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="../lib/jquery/1.11.1/jquery.min.js"/>
+		
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<!--
 		<script src="../lib/bootstrap/3.2.0/js/bootstrap.min.js"/>
 		<script src="js/docs.min.js"/>
-		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 		<script src="js/ie10-viewport-bug-workaround.js"/>
-		<!--<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" data-original-title="Copy to clipboard">
-		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         
-			<param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1414076032657">
-			<param name="allowScriptAccess" value="sameDomain">         
-			<param name="scale" value="exactfit">         
-			<param name="loop" value="false">         
-			<param name="menu" value="false">         
-			<param name="quality" value="best">         
-			<param name="bgcolor" value="#ffffff">         
-			<param name="wmode" value="transparent">         
-			<param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         
-			<embed src="/assets/flash/ZeroClipboard.swf?noCache=1414076032657" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit"/>                
-		</object>
-	</div>-->
+		-->
 	</body>
 </html>
