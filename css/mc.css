@@ -10,15 +10,28 @@ a,a:focus,a:hover {
 }
 
 /* Custom default button */
+input,
+select,
+textarea,
+button,
+.ui-btn,
 .btn-default,
 .btn-default:hover,
-.btn-default:focus {
+button:hover,
+.ui-btn:hover,
+.btn-default:focus,
+button:focus,
+.ui-btn:focus{
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
+  	-webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
+.btn
 /*
  * Base structure
  */
@@ -71,7 +84,7 @@ h3{
 	font-size: 24px;
 }
 /* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
+.site-wrapper.ui-page-active {
 	display: table;
 	width: 100%;
 	height: 100%; /* For at least Firefox */
@@ -176,9 +189,14 @@ h3{
 }
 .cover .btn-lg {
   padding: 10px 20px;
-  font-weight: bold;
+  
 }
-
+.cover .cover-heading{
+}
+.cover .lead{
+	font-size:16pt;
+	font-weight:normal;
+}
 
 /*
  * Footer

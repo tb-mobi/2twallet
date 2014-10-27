@@ -10,51 +10,53 @@
 		<meta name="author" content="v.bushuev">
 		<link rel="icon" href="img/favicon.ico">
 		<title>Money&bull;Case</title>
-		<!-- Jquery -->
-		<link href="../lib/jquery/mobile/1.4.4/jquery.mobile.css" rel="stylesheet">
+		<!-- Jquery Mobile-->
+		<link href="../lib/jquery/mobile/1.4.4/jquery.mobile.structure.css" rel="stylesheet">
 		<!-- Font awesome styles -->
 		<link href="../lib/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<!-- Custom styles for this template -->
 		<link href="css/mc.css" rel="stylesheet">
 	</head>
-	<body class="site-wrapper">
-		<div data-role="page" id="index" class="site-wrapper-inner">
-			<div data-role="header" class="cover-container">
-				<div class="mc-head clearfix">
-					<h3 class="mc-head-brand"><i class="mc mc-color-green">Money</i>&nbsp;<i class="fa fa-suitcase"></i>&nbsp;<i class="mc mc-color-pink">Case</i></h3>
-					<ul class="nav mc-head-nav">
-						<li class="mc-item active">
-							<a href="#">Главная</a>
-						</li>
-						<li class="mc-item">
-							<a href="#features">Преимущества</a>
-						</li>
-						<li class="mc-item">
-							<a href="#">Контакты</a>
-						</li>
-						<li class="mc-box">
-							<a href="#">Вход</a>
-						</li>
-					</ul>												
-				</div>
-			</div>
-			<div role="main" class="ui-content cover-container">
+	<body>
+		<div data-role="page" id="index" class="site-wrapper">
+			<div class="site-wrapper-inner">
+			<!--<div data-role="header" class="cover-container"></div>-->
 				<div class="cover-container">
-					<div class="inner cover" role="main">
+					<div class="mc-head clearfix">
+						<div class="inner">
+							<h3 class="mc-head-brand"><i class="mc mc-color-green">Money</i>&nbsp;<i class="fa fa-suitcase"></i>&nbsp;<i class="mc mc-color-pink">Case</i></h3>
+							<!--<div data-role="navbar">-->
+								<ul class="nav mc-head-nav">
+									<li class="mc-item active">
+										<a href="#">Главная</a>
+									</li>
+									<li class="mc-item">
+										<a href="#features">Преимущества</a>
+									</li>
+									<li class="mc-item">
+										<a href="#">Контакты</a>
+									</li>
+									<li class="mc-box">
+										<a href="#">Вход</a>
+									</li>
+								</ul>												
+							<!--</div>-->
+						</div>
+					</div>
+					<div class="inner cover">
 						<h1 class="cover-heading">Ваш кошелёк. Money&nbsp;<i class="fa fa-suitcase"></i>&nbsp;Case</h1>
 						<p class="lead">Ваш кошелёк - это Безопасный финансовый инструмент на просторах интернета. Встроенно более 1000 наименований услуг, и список расширяется. Привязка любой банковской карты, а так же Ваша личная виртуальная карта привязанная к Вашему кошельку для безопасной оплаты интернет магазинах. И кое-что еще ...</p>
 						<p class="lead">
 							<a href="#" class="btn btn-lg btn-default">Получить кошелек.</a>
 						</p>
 					</div>
-				</div>
-			</div>
-			<div data-role="footer" class="cover-container">
-				<div class="mc-foot">
-					<div class="inner">
-						<p>Ваш личный счет <a href="http://pay.myplatfon.ru/">Платфон</a>, <a href="http://2tbank.ru">2Тбанк</a>.</p>
+					<div class="mc-foot">
+						<div class="inner">
+							<p>Ваш личный счет <a href="http://pay.myplatfon.ru/">Платфон</a>, <a href="http://2tbank.ru">2Тбанк</a>.</p>
+						</div>
 					</div>
 				</div>
+				<!--<div data-role="footer" class="cover-container"></div>-->
 			</div>
 		</div>
 		<div data-role="page" id="features">
