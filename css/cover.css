@@ -91,6 +91,24 @@ body {
   border-bottom-color: #fff;
 }
 
+.masthead-nav > li > a.signin {
+	padding:10px;
+	font-weight: bolder;
+	color: rgba(255,255,255,.75);
+	border: 3px solid rgba(255,255,255,.5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.masthead-nav > li > a.signin:hover,
+.masthead-nav > li > a.signin:focus {
+  background-color: transparent;
+  border-color: #a9a9a9;
+  color: rgba(255,255,255,1);
+  border-color: rgba(255,255,255,1);
+}
+
+
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
@@ -106,13 +124,25 @@ body {
  */
 
 .cover {
-  padding: 0 20px;
+	padding: 0 20px;
+  	display: block;
+	width:100%;
 }
-.cover .btn-lg {
+.cover .btn-lg 
+,.cover-3 .btn-lg 
+{
   padding: 10px 20px;
+  background:rgba(255,255,255,.3);
   font-weight: bold;
 }
 
+.cover-3{
+	display: table-cell;
+	width:30%;
+}
+.cover-3 .btn-lg:hover{
+	background:rgba(255,255,255,1);
+}
 
 /*
  * Footer

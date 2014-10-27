@@ -142,6 +142,18 @@ h3{
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
+.mc-head-nav > li.mc-item > a:hover,
+.mc-head-nav > li.mc-item > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.mc-head-nav > .mc-item.active > a,
+.mc-head-nav > .mc-item.active > a:hover,
+.mc-head-nav > .mc-item.active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
 .mc-head-nav > li.mc-box > a {
 	font-weight: bolder;
 	color: rgba(255,255,255,.75);
@@ -150,24 +162,12 @@ h3{
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
-.mc-head-nav > li.mc-item > a:hover,
-.mc-head-nav > li.mc-item > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
-}
 .mc-head-nav > li.mc-box > a:hover,
 .mc-head-nav > li.mc-box > a:focus {
   background-color: transparent;
   border-color: #a9a9a9;
   color: rgba(255,255,255,1);
   border-color: rgba(255,255,255,1);
-}
-.mc-head-nav > .mc-item.active > a,
-.mc-head-nav > .mc-item.active > a:hover,
-.mc-head-nav > .mc-item.active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {
