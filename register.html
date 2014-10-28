@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="v.bushuev">
-	<link rel="icon" href="img/favicon.ico">
+	<link rel="icon" href="img/favicon.png">
 	<title>РайСчет</title>
 	<!-- Bootstrap core CSS -->
 	<link href="../lib/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
@@ -33,9 +33,14 @@
 					<h1 class="cover-heading">Ваш номер мобильного телефона</h1>
 					<p class="lead">Номер Вашего мобильного телефона уникален и он будет использоваться как номер Вашего кошелька "<i class="fa fa-ruble green"></i>ай Cчет".</p>
 					<div class="lead form">
-						<div class="input">
-							<i class="fa fa-mobile-phone fa-3x"></i>
-							<input class="phone" type="text" placeholder="926-510-20-47">
+						<div class="fieldset">
+							<div class="fieldset-row">
+								<div class="fieldset-cell">Номер мобильного телефона</div>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-phone fa-2x"></i></span>
+									<input type="text" id="phone" name="phone" placeholder="phone">
+								</div>
+							</div>
 						</div>
 					</div>
 					<p class="lead">
