@@ -1,29 +1,16 @@
-/*
- * Globals
- */
-
+/* Globals */
 /* Links */
-a,a:focus,a:hover {
-  color: #fff;
-  text-decoration:none;
-}
-
-.green{
-	color:#12B300;
-}
+a,a:focus,a:hover {color: #fff;text-decoration:none;}
+/* System colors */
+.green{color:#12B300;}
 /* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
+.btn-default,.btn-default:hover,.btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
 }
-
-/*
- * Base structure
- */
+/* Base structure */
 html,
 body {
   height: 100%;
@@ -51,23 +38,24 @@ body {
   display: table-cell;
   vertical-align: top;
 }
+.container, 
 .cover-container {
   margin-right: auto;
   margin-left: auto;
 }
-
 /* Padding for spacing */
 .inner {
   padding: 16px;
 }
-/*
- * Header
- */
+/* Header */
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+.masthead-brand i.name{
+	font-weight:normal;
+	font-size:12pt;
+}
 .masthead-nav > li {
   display: inline-block;
 }
@@ -95,7 +83,6 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-
 .masthead-nav > li > a.signin {
 	padding:10px;
 	font-weight: bolder;
@@ -113,35 +100,30 @@ body {
   color: rgba(255,255,255,1);
   border-color: rgba(255,255,255,1);
 }
-
-
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
+/* Cabinet */
+.cabinet{
+	width:100%;
+	text-align:right;
 }
-
-
-/*
- * Cover
- */
-
+.cabinet ul,
+.cabinet ul > li{
+	display: inline-block;
+}
+.cabinet > li + li {
+  margin-left: 8px;
+}
+/* Cover */
 .cover {
 	padding: 0 20px;
   	display: block;
 	width:100%;
 }
 .cover .btn-lg 
-,.cover-3 .btn-lg 
-{
+,.cover-3 .btn-lg {
   padding: 10px 20px;
   background:rgba(255,255,255,.3);
   font-weight: bold;
 }
-
 .cover-row{
 	display: table-row;
 	width:31%;
@@ -175,7 +157,6 @@ body {
 	box-shadow: 0 0 100px rgba(0,0,0,.5);
 	
 }
-
 .cover-heading{
 	top:16px;
 }
@@ -200,19 +181,12 @@ body {
   color: rgba(255,255,255,1);
   border-color: rgba(255,255,255,1);
 }
-/*
- * Footer
- */
-
+/* Footer */
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
-
-
-/*
- * Forms
- */
+/* Forms */
 .form{
 	margin-left:auto;
 	margin-right:auto;
@@ -280,7 +254,6 @@ input{
 	display:table-cell;
 	width:46px;
 }
-
 .pay-choose{
 	display:table;
 	padding: 16px;
@@ -301,36 +274,68 @@ input{
 	height:48px;
 	text-align:center;
 }
-/*
- * Affix and center
- */
-
+.account{
+	width:100%;
+	text-align:left;
+	padding:16px;
+	-webkit-box-shadow: 0 0 100px rgba(0,0,0,.5);
+	box-shadow: 0 0 100px rgba(0,0,0,.5);
+	border: 1px solid rgba(255,255,255,0);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.account:hover
+,.account:focus{
+	border: 1px solid rgba(255,255,255,1);
+	background-color:rgba(255,255,255,.4);
+}
+.account .name{
+	font-weight:800;
+	padding-right:8px;
+}
+.account .type{
+	font-weight:normal;
+}
+.account .amount{
+	font-weight:900;
+	float:right;
+}
+.account .currency{
+	float:right;
+}
+/* Affix and center */
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
+	.masthead {
+		position: fixed;
+		top: 0;
+	}
+	.masthead-brand {
+		float: left;
+	}
+	.masthead-nav {
+		float: right;
+	}
+	.mastfoot {
+		position: fixed;
+		bottom: 0;
+	}
+	/* Start the vertical centering */
+	.site-wrapper-inner {
+		vertical-align: middle;
+	}
+	/* Handle the widths */
+	.masthead,
+	.mastfoot,
+	.cover-container {
+		width: 100%; /* Must be percentage or pixels for horizontal alignment */
+	}
 }
-
 @media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 700px;
-  }
+	.masthead,
+	.mastfoot,
+	.cover-container {
+		width: 700px;
+	}
 }
