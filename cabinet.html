@@ -27,68 +27,127 @@
 							<li class="active"><a href="#">Кабинет</a></li>
 							<li><a href="#">Платфон</a></li>
 							<li><a href="#settings.html">Настройки</a></li>
-							<li><a href="index.html" class="signin">Выход</a></li>
+							<li><a href="index.html" class="signin"><i class="fa fa-sign-out"></i> Выход</a></li>
 						</ul>
 					</div>
 				</div>	
 				<div class="inner cabinet clearfix">
-					<span><i class="fa fa-user"></i>&nbsp;Агапян Сулейманович</span>
-					<ul>
-						<li><a href="#"><i class="fa fa-gear"></i><i class="fa fa-caret-down"></i></a></li>
-					</ul>
-				</div>
-				<div class="inner cover">
-					<div class="account-list">
-						<div class="account dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-								<span class="name">Rai Account</span>
-								<span class="type">Lite</span>
-								<span class="amount">14386</span>
-								<span class="currency"><i class="fa fa-ruble"></i></span>
-								<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-									<li><a tabindex="-1" href="#">Action</a></li>
-									<li><a tabindex="-1" href="#">Another action</a></li>
-									<li><a tabindex="-1" href="#">Something else here</a></li>
-									<li class="divider"></li>
-									<li><a tabindex="-1" href="#">Separated link</a></li>
-								</ul>
-							</a>
+					<div class="cabinet-head">
+						<span><i class="fa fa-user"></i>&nbsp;Агапян Сулейманович</span>
+						<div class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+								<li><a tabindex="-1" href="#"><i class="fa fa-lock"></i> Личные данные</a></li>
+								<li><a tabindex="-1" href="#"><i class="fa fa-star-o"></i> Мои услуги</a></li>
+								<li class="divider"></li>
+								<li><a tabindex="-1" href="#"><i class="fa fa-list"></i> Журнал моих действий</a></li>
+							</ul>
 						</div>
-						<div class="account dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-								<span class="name">Rai Account</span>
-								<span class="type">Lite</span>
-								<span class="amount">14386</span>
-								<span class="currency"><i class="fa fa-ruble"></i></span>
-								<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-									<li><a tabindex="-1" href="#">Action</a></li>
-									<li><a tabindex="-1" href="#">Another action</a></li>
-									<li><a tabindex="-1" href="#">Something else here</a></li>
-									<li class="divider"></li>
-									<li><a tabindex="-1" href="#">Separated link</a></li>
-								</ul>
-							</a>
+					</div>				
+					<div class="cabinet-box">
+						<div class="tools">
+							<h1>Мои счета</h1>
+							<ul>
+								<li><a href="#" class="view-fulls normal"><i class="fa fa-expand"></i></a></li>
+								<li><a href="#" class="view-slide showed"><i class="fa fa-caret-up"></i></a></li>
+							</ul>
+						</div>
+						<div class="title">
+						</div>
+						<div class="content">
+							<div class="account">
+								<div class="cell name">
+									<i class="name">Райcчет для жизни</i>
+									<ul class="cards">
+										<li><i class="fa fa-cc-mastercard"></i> 5126 26** **** 1203</li>
+										<li></li>
+									</ul>
+								</div>
+								<div class="cell type">кошелек</div>
+								<div class="cell right amount">RUB14386+456</div>
+								<div class="cell right action dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#">&bull;&bull;&bull;</a>
+									<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+										<li><a tabindex="-1" href="#"><i class="fa fa-list"></i> Операции</a></li>
+										<li><a tabindex="-1" href="#"><i class="fa fa-file-pdf-o"></i> Выписка</a></li>
+										<li class="divider"></li>
+										<li><a tabindex="-1" href="#"><i class="fa fa-plus"></i> Пополнить</a></li>
+										<li class="divider"></li>
+										<li><a tabindex="-1" href="#"><i class="fa fa-exchange"></i> Перевести</a></li>
+										<li><a tabindex="-1" href="#"><i class="fa fa-shopping-cart"></i> Оплатить</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="account">
+								<span class="cell name">Rai Account</span>
+								<span class="cell type">Lite</span>
+								<span class="cell right amount">USD716,89-3.11</span>
+								<div class="cell right dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#">&bull;&bull;&bull;</a>
+									<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+										<li><a tabindex="-1" href="#">Action</a></li>
+										<li><a tabindex="-1" href="#">Another action</a></li>
+										<li><a tabindex="-1" href="#">Something else here</a></li>
+										<li class="divider"></li>
+										<li><a tabindex="-1" href="#">Separated link</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cabinet-box">
+						<div class="tools">
+							<h1>Мои шаблоны</h1>
+							<ul>
+								<li><a href="#" class="view-style listset"><i class="fa fa-list"></i></a></li>
+								<li><a href="#" class="view-fulls normal"><i class="fa fa-expand"></i></a></li>
+								<li><a href="#" class="view-slide showed"><i class="fa fa-caret-up"></i></a></li>
+							</ul>
+						</div>
+						<div class="title">
+							<ul>
+								<li><a href="#"><i class="fa fa-plus"></i> Добавить</a></li>
+							</ul>
+						</div>
+						<div class="content left">
+							<div class="template">
+								<div class="cell icon"><img width="24px" src="img/logotype/megafon.png"/></div>
+								<div class="cell name">Wife</div>
+								<div class="cell type">Мегафон</div>
+								<div class="cell details">+79250582270</div>
+								<div class="cell actions"><a href="#" class="btn btn-default">Оплатить</a></div>
+							</div>
+							<div class="template">
+								<div class="cell icon"><img width="24px" src="img/logotype/megafon.png"/></div>
+								<div class="cell name">Wife</div>
+								<div class="cell type">Мегафон</div>
+								<div class="cell details">+79250582270</div>
+								<div class="cell actions"><a href="#" class="btn btn-default">Оплатить</a></div>
+							</div>
+							<div class="template">
+								<div class="cell icon"><img width="24px" src="img/logotype/megafon.png"/></div>
+								<div class="cell name">Wife</div>
+								<div class="cell type">Мегафон</div>
+								<div class="cell details">+79250582270</div>
+								<div class="cell actions"><a href="#" class="btn btn-default">Оплатить</a></div>
+							</div>
+							<div class="template">
+								<div class="cell icon"><img width="24px" src="img/logotype/megafon.png"/></div>
+								<div class="cell name">Wife</div>
+								<div class="cell type">Мегафон</div>
+								<div class="cell details">+79250582270</div>
+								<div class="cell actions"><a href="#" class="btn btn-default">Оплатить</a></div>
+							</div>
+							<div class="template">
+								<div class="cell icon"><img width="24px" src="img/logotype/megafon.png"/></div>
+								<div class="cell name">Wife</div>
+								<div class="cell type">Мегафон</div>
+								<div class="cell details">+79250582270</div>
+								<div class="cell actions"><a href="#" class="btn btn-default">Оплатить</a></div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<!--
-				<div class="inner cover-3">
-					<h1 class="cover-heading"><i class="fa fa-shopping-cart fa-3x"></i> </h1>
-					<p class="lead">Более <strong>1&nbsp;000</strong> наименований услуг оплаты и список постоянно расширяется. Оплата с рай счета - <strong>0%</strong> коммиссии.</p>
-					<p class="lead box"><b>Это выгодно!</b></p>
-				</div>
-				<div class="inner cover-3">
-					<h1 class="cover-heading"><i class="fa fa-lock fa-3x"></i></h1>
-					<p class="lead">Использование виртуальной банковской карты, привязанной к Вашему счету делает покупки в интернете безопасными и удобными. </p>
-					<p class="lead box"><b>Это удобно!</b></p>
-				</div>
-				<div class="inner cover-3">
-					<h1 class="cover-heading"><i class="fa fa-line-chart fa-3x"></i></h1>
-					<p class="lead">Используйте Рай счет и получайте бонусные баллы на бонусный Рай счет, переводите баллы на обычные счета и тратьте на Ваши нужны. </p>
-					<p class="lead box"><b>Это прибыльно!</b></p>
-					<p class="lead-last"><a href="#" class="btn btn-lg btn-default">Подробнее ...</a></p>
-				</div>
-				-->
 				<div class="mastfoot">
 					<div class="inner">
 						<p>Ваш личный счет для <a target="blank" href="http://pay.myplatfon.ru/">Платфон</a>, Банк эмитент <a  target="blank" href="http://2tbank.ru">2Тбанк</a>.</p>
